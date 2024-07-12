@@ -1,0 +1,114 @@
+/* signin.css */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    /* Align container to the left */
+    /*background-color: #2e001c;*/
+}
+
+.signin-container {
+    display: flex;
+    width: 125%;
+    /* Adjust width as desired */
+    max-width: 900px;
+    /* Ensure it doesn't take too much width */
+    height: 51vh;
+    /* Adjusted height for viewport */
+    background-color: transparent;
+    /* Set background color to transparent */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: center;
+    /* Center items horizontally */
+    position: relative;
+    /* Ensure relative positioning for z-index */
+    z-index: 1;
+    /* Ensure the container is on top */
+    border-radius: 20px;
+    /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Optional: Add shadow for depth */
+    margin-left: 30%;
+    /* Push container a little to the right */
+    margin-right: 10%;
+    margin-top:50%
+    /* Adjust margin as needed */
+}
+
+.signin-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f9b0db;
+    position: relative;
+    /* Ensure stacking context for z-index */
+    z-index: 2;
+    /* Ensure form is on top of the background image */
+    border-radius: 20px;
+    /* Match container's rounded corners */
+}
+
+.signin-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    /* Place it behind other content */
+    background-image: url('./images/logo.jpg');
+    /* Adjust path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* Rounded corners to match container */
+}
+
+
+form {
+    width: 100%;
+    max-width: 600px;
+}
+
+form h2 {
+    margin-bottom: 1rem;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #8e2c7f;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0099;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f898ba;
+}

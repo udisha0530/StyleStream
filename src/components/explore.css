@@ -1,0 +1,31 @@
+.activity {
+    display:grid;
+    grid-template-columns: 500px 600px;
+    gap: 108px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.activity__posts::-webkit-scrollbar {
+    display: none;
+}
+.activity__posts {
+    overflow-y: auto;
+    gap: 10px;
+    flex: 2;
+    max-height: calc(100vh - 120px);
+    margin-left: 100px;
+    width: max-content;
+}
+.activity__create-post button {
+    background-color: #ff0099;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 5%;
+
+}
+
+.activity__create-post button:hover {
+    background-color: #870130;
+}
+

@@ -1,0 +1,23 @@
+/* Home.css */
+
+.home {
+    padding-top: 60px;
+    /* Adjust according to your Navbar height */
+    text-align: center;
+}
+
+.home__content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.home p {
+    font-size: 1.2rem;
+    color: #666666;
+}
