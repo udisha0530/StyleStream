@@ -7,8 +7,7 @@ StyleStream is a social shopping web app designed to provide personalized fashio
 
 - **Shopping Feed**: Browse a mix of products and content from creators.
 - **Interactive Product Options**: Buy, like, comment, and share products.
-- **Activity Section**: Participate in fashion quizzes and polls.
-- **Trending Hashtags**: Discover trending fashion topics and hashtags.
+- **Trending**: Discover trending fashion topics and hashtags.
 - **Personalized Recommendations**: Get fashion suggestions based on your preferences through the "Quiz of the Day."
 - **Explore Section**: Discover new products and fashion trends.
 - **Game Zone**: Engage in fashion-related games and challenges.
