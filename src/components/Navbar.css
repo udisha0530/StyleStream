@@ -2,10 +2,11 @@
 
 .header {
     width: 100%;
-    background-color: #ffffff;
+    background-color: #f29ec7;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: fixed;
     z-index: 1000;
+    margin-top:-51px;
 }
 
 .nav {
@@ -55,20 +56,22 @@
 }
 
 .nav__cta {
-    background-color: #ff0099;
+    background-color: black;
     color: #ffffff;
     padding: 0.5rem 1rem;
     border-radius: 5px;
 }
 
 .nav__cta:hover {
-    background-color: #870130;
+    background-color: white;
+    color:black;
 }
-
 @media screen and (max-width: 768px) {
-    .nav__toggle {
+.nav__toggle {
         display: block;
+        font-size: 1.5rem;
         cursor: pointer;
+        color: #333333;
     }
 
     .nav__menu {
@@ -109,5 +112,39 @@
         cursor: pointer;
         font-size: 1.5rem;
         color: #333333;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .nav__menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: #f29ec7;
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        width: 80%;
+        height: 100%;
+        padding: 6rem 3rem 0;
+        transition: right 0.4s;
+    }
+
+    .nav__menu.active {
+        right: 0;
+        width:50%;
+    }
+}
+@media screen and (min-width: 1150px) {
+    .nav {
+        height: calc(var(--header-height) + 1rem);
+    }
+
+    .nav__toggle,
+    .nav__close {
+        display: none;
+    }
+
+    .nav__list {
+        flex-direction: row;
+        column-gap: 2.5rem;
     }
 }
