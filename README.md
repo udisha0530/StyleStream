@@ -1,6 +1,6 @@
 # StyleStream
 
-![StyleStream Logo](public/stylestream.jpg)
+<img src="public/stylestream.jpg" alt="StyleStream Logo" width="300" height="300">
 StyleStream is a social shopping web app designed to provide personalized fashion recommendations and engage users with interactive features like quizzes, polls, and a social media-like feed. This app is aimed at the Gen Z demographic and offers a fun and engaging way to discover and shop for fashion items.
 
 ## Features
